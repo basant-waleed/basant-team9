@@ -1,0 +1,113 @@
+.parent{
+    grid-template-rows: 0 300px 50px 30px;
+    background-color:#EDDDCD;
+    
+}  
+
+.About-cover img{ 
+    position: relative;
+    display: block;
+
+}
+.About-cover p{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:xx-large;
+    padding-left: 200px;
+    bottom: 350px;
+    color: white;
+}
+
+.About-navbar{
+    background-color: #EDDDCD;
+    display: grid; 
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.About-navbar h1{
+    padding-left:10px ;
+    font-family:sans-serif;
+    /* padding-top: 20px; */
+
+}
+.items-About{
+    display: flex;
+padding-left: 750px;
+justify-content:space-between;
+color: black!important;
+padding-top: 0px;
+
+}  
+.navbar-About{
+    padding-inline:30px ;
+    color: black;
+    font-size:15px ;
+}
+.parentA2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #EDDDCD;
+    padding-left: 15em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    position: relative;
+    
+}
+
+.parentA2 h5{
+    padding: 0.5em;
+} 
+
+.carda{
+    grid-area: carda;
+    background-color: whitesmoke;
+    border: solid;
+    border-color: #EDDDCD;
+    border-radius: 70px 70px 0 0;
+    text-align: center;
+}
+.parentA2 img{
+    width: 155px;
+    height: 200px;
+    border-radius: 70px 70px 0 0;
+}
+.cardb{
+    grid-area: cardb;
+    background-color: whitesmoke;
+    border: solid;
+    border-color: #EDDDCD;
+    border-radius: 70px 70px 0 0;
+    text-align: center;
+}
+.cardo{
+    grid-area: cardo;
+    background-color: whitesmoke;
+    border: solid;
+    border-color: #EDDDCD;
+    border-radius: 70px 70px 0 0;
+    text-align: center;
+}
+.log{
+    display: grid;
+    background-color: #dcb49e;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.log h3{
+    padding-left: 40%;
+    padding: 1em;
+}
+.btn{
+    color: black !important;
+    background-color: #EDDDCD !important;
+    border-bottom: #EDDDCD !important;
+    border-top: #EDDDCD !important;
+    border-left: #EDDDCD !important;
+    border-right: #EDDDCD !important;
+    margin-left: 43em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 1em;
+}

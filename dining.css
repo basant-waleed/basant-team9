@@ -1,0 +1,222 @@
+*{margin: 0; padding: 0;}
+.home-navbar{
+    background-color: #EDDDCD;
+    display: flex;
+   
+}
+.home-navbar h1{
+    padding-left:5px ;
+    font-family:serif;
+   }
+.items-home{
+    display: flex;
+    padding-left: 750px;
+   justify-content:space-between;
+   color: black!important;
+   padding-top: 15px;
+}
+.navbar-home{
+    padding-inline:30px ;
+    color: black;
+    font-size:15px ;
+}
+.home-cover img{ 
+    position: relative;
+width: 1440;
+}
+.home-cover p{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:xx-large;
+    padding-left: 100px;
+    bottom: 400px;
+    color: rgb(245, 241, 241);
+    letter-spacing: 0.1em;
+    
+}
+.dining1 {
+    background-color:#EDDDCD ;
+    padding: 5em;
+    position: relative;
+    /*text-align: center;*/
+}
+.h3{
+   
+    position: absolute;
+    font-size:35px;
+    font-family: sans-serif;
+    text-align: center;
+}
+  
+    .diningcard1{
+   
+    background: #dcb49e;;
+    border: solid #EDDDCD;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    text-align: center; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+  
+.diningcard2{
+  
+   background: #dcb49e;;
+   border: solid #EDDDCD;
+   border-top-left-radius: 50%;
+   border-top-right-radius: 50%;
+   text-align: center;  
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .diningcard3{
+    background: #dcb49e;;
+    border: solid #EDDDCD;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    text-align: center;  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .diningcard1 img
+{
+ width: 13.9rem;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ height: 190px;
+}
+.diningcard2 img
+{width: 13.9rem;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.diningcard3 img
+{
+ width: 13.9rem;  
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.dining2  {
+justify-content:space-between;
+background-color: whitesmoke ;
+padding: 5em;
+position: relative; 
+height: 320px;
+}
+
+.dining2 h4{
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    padding-bottom: 1em;
+    padding-left:5em;
+    bottom:420px;
+    padding-top:1.4em ;
+    
+}
+.diningoffer {height: 250px;
+width: 250;
+border-radius: 50%;
+margin-left: 940px;
+margin-top: 0px; margin-bottom: 0%;
+display: flex;
+position: absolute;
+top: 5px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.diningofer {
+    height: 230px;
+    width: 230;
+    border-radius: 50%;
+    margin-left: 725px;
+    margin-top:0px; margin-bottom: 50px;
+    display: flex;
+    position: absolute;
+
+    top:85px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .dining3 {
+        display: flex;
+        justify-content:space-between;
+        background-color:#EDDDCD ;
+        padding: 5em;
+        position: relative;
+        height: 440px;
+        margin-top: 0px;
+    }
+    .dining3 h4{
+        text-align: center;
+        position: absolute;
+        font-size:35px;
+        font-family: sans-serif;
+        text-align: center;
+        position:absolute;
+        padding-left:13.4em;
+        bottom:380px;
+        letter-spacing: 0.;
+    }
+    .diningsel {
+        background: #dcb49e;;
+        border: solid #EDDDCD;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        text-align: center; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 13.9rem;
+        height: 250px;}
+    .diningsell{  
+        background: #dcb49e;;
+        border: solid #EDDDCD;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        text-align: center; 
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
+        width: 13.9rem;
+        height: 250px;}
+    .diningsellin{
+        background: #dcb49e;;
+        border: solid #EDDDCD;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        text-align: center; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 13.9rem;
+        height: 250px;}    
+    .diningselling{  
+    background: #dcb49e;;
+    border: solid #EDDDCD;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    text-align: center; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    object-fit: cover;
+    width: 13.9rem;
+    height: 250px;}
+.endp{background-color: whitesmoke;
+    display: grid;
+    grid-template-rows: 90px 30px 90px 30px;
+    grid-template-columns: 100px 100px 100px 100px;
+    width: 1350px;
+    height: 250px;
+    }
+.endc{ position: absolute;
+    box-shadow: 0px 4px 4px rgba(0.25, 0.25, 0.25, 0.25);
+        border: solid;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        width: 300px;
+        height: 200px;
+        background-color:#DCB49E;
+        border-color:#DCB49E;
+        margin-left: 550px;
+        margin-bottom: 300px; margin-top: 50px;}
+.endc h5{
+            text-align: center;
+            padding: 2em;
+            font-family: sans-serif;
+        }
+.endc h6{
+            text-align: center;
+        
+        }
+.btn{color: #000 !important;
+background-color: #eee6de !important;
+border-bottom: #eee6de !important;
+border-top: #eee6de !important;
+border-left: #eee6de !important;
+border-right: #eee6de !important;}       
+.boxcont{display: flex;
+justify-content: space-between;}
+
+
+

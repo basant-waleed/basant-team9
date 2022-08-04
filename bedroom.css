@@ -1,0 +1,233 @@
+
+.parentbed1{
+    display: grid;
+    grid-template-rows: 0px 1100px 100px 50px ;
+    background-color: #EDDDCD;
+}
+.parentbed2{
+    display: grid;
+    grid-template-rows: 100px 30px 100px 50px ;
+    background-color: whitesmoke;
+    
+}
+.parentbed3{
+    display: grid;
+    grid-template-rows: 60px 160px 105px 100px;
+    background-color: #DCB49E ;
+}
+.parentbed3 p2{
+    padding-top: 20px ;
+    font-family:sans-serif; 
+    position: absolute;
+    padding-left: 500px;
+}
+
+.col{
+    padding-right: 100px;
+    margin-left: 45px;
+}
+
+.bed-navbar{
+    background-color: #EDDDCD;
+    display: flex;
+   /* margin: 7px 5px 0 2px;
+    position:relative;
+    justify-content: space-between;
+    color: black !important;*/
+   
+}
+.bed-navbar h2{
+    padding-left: 10px ;
+   /* margin: 1px 2px 0 0;*/
+    font-family:serif;
+    color: black !important;
+    
+}
+.navbed{
+    color: black!important;
+    display: flex;
+    padding-left: 750px;
+    justify-content:space-between;
+    color: black!important;
+    padding-top: 15px
+}
+.navbarbed{
+    padding-inline:30px ;
+    color: black;
+    font-size:15px ;
+}
+/*
+.itembed{
+    display: flex;
+padding-left: 800px;
+justify-content: space-between;
+color: black!important;
+padding-bottom: 0 5px;
+position:relative;
+}*/
+
+
+
+
+
+
+
+
+
+.bed1{
+   position: relative; 
+}
+.bed1 p{
+    position: absolute;
+    font-family: sans-serif;
+    font-size: xx-large;
+    padding-left: 200px ;
+    bottom: 350px;
+    color: white; 
+}
+h3{
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #312633;
+    margin: 40px 20px 90px 20px; 
+}
+.bed2 {
+    display: inline-block;
+    width: 233px;
+    height: 475px;
+    border: solid;
+    border-top-right-radius: 120px ;
+    border-top-left-radius: 120px;
+    background-color: #DCB49E;
+    border-color: #DCB49E;
+    margin: 50px 90px 90px 120px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.bed2 img{
+    border-top-right-radius: 110px ;
+    border-top-left-radius: 110px;
+}
+.btn{
+    color:black !important;
+    background-color: #EDDDCD !important;
+    border-bottom: #EDDDCD !important;
+    border-top: #EDDDCD !important;
+    border-left: #EDDDCD !important;
+    border-right: #EDDDCD !important;
+
+}
+.bed3{
+    display: inline-block;
+    width: 233px;
+    height: 475px;
+    border: solid;
+    border-top-right-radius: 120px ;
+    border-top-left-radius: 120px;
+    background-color:#DCB49E;
+    border-color: #DCB49E;
+    margin: 50px 90px 900px 100px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bed3 img{
+    border-top-right-radius: 110px ;
+    border-top-left-radius: 110px;
+}
+
+.bed4 {
+    display: inline-block;
+    width: 233px;
+    height: 475px;
+    border: solid;
+    border-top-right-radius: 120px ;
+    border-top-left-radius: 120px;
+    background-color:#DCB49E;
+    border-color: #DCB49E;
+    margin: 50px 90px 90px 70px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.bed4 img{
+    border-top-right-radius: 110px ;
+    border-top-left-radius: 110px;
+}
+.bed5{
+    display: inline-block;
+    width: 330px;
+    height: 340px;
+    border: solid;
+    border-bottom-right-radius: 150px ;
+    border-bottom-left-radius: 150px;
+    background-color:#DCB49E;
+    border-color: #DCB49E;
+    margin: 0px 40px 80px 900px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bed5 img{
+    border-bottom-right-radius: 150px ;
+    border-bottom-left-radius: 150px;
+}
+.photobed5{
+    padding-left:150px ;
+    font-family:sans-serif;
+}
+.bed6{
+    
+    display: flex;
+    width: 150px;
+    height: 150px;
+    padding: 50px ;
+    margin: 50px 50px 20px 0px;
+}
+.bed7{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    padding: 60px;
+    margin: 30px 30px 20px 0px;
+}
+.bed8{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    padding: 80px;
+    margin:20px 30px 10px 0px ;
+}
+.bed9{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    padding: 100px; 
+
+}
+.bedf{
+    background-color: #EDDDCD;
+    padding: 2px;
+    display: flex;
+    
+}
+.bedg{
+    display: inline-block;
+    border: solid;
+    border-top-right-radius: 190px ;
+    border-top-left-radius: 190px;
+    background-color: #DCB49E;
+    border-color: #DCB49E;
+    margin-left: 500px ;
+    margin-top: 30px;
+    padding: 50px;
+    font-style: normal;
+    font-family: sans-serif;
+}
+
+
+
+
+
